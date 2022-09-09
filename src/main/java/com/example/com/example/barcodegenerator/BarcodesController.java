@@ -26,6 +26,7 @@ public class BarcodesController {
     public ResponseEntity<BufferedImage> zXingQRBarcode(@PathVariable("barcode") String barcode) throws Exception {
         return okResponse(CodeGenerator.generateQRCodeImg(barcode));
     }
+
     private ResponseEntity<BufferedImage> okResponse(BufferedImage img) {
         return new ResponseEntity<>(img, HttpStatus.OK);
     }
