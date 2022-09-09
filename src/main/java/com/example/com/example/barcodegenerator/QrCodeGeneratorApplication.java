@@ -1,4 +1,4 @@
-package com.example.codegenerator;
+package com.example.com.example.barcodegenerator;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

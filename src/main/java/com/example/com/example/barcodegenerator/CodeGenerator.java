@@ -1,4 +1,4 @@
-package com.example.codegenerator;
+package com.example.com.example.barcodegenerator;
 
 import com.google.zxing.BarcodeFormat;
 import com.google.zxing.client.j2se.MatrixToImageWriter;

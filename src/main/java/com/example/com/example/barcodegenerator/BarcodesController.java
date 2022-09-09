@@ -1,4 +1,4 @@
-package com.example.codegenerator;
+package com.example.com.example.barcodegenerator;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.http.HttpStatus;
